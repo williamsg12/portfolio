@@ -6,6 +6,7 @@ body  {
   font-family: 'Roboto', sans-serif;
   text-transform:uppercase;
   text-shadow: .5px .5px 0 $shadow;
+  
 }
 
 .background {
@@ -19,11 +20,13 @@ body  {
 }
 
 .nav{  
+  display: grid;
   padding: 0px;
-  width: 640px;
+
   margin: 100px auto auto auto;
-  display: inline;
-  justify-content: center;
+  /* display: inline; */
+  justify-content: space-between;
+  
 }
 
 ul{  
