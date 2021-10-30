@@ -1,43 +1,52 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
 			<div>
 				<ul class='nav'>
 					<li>
-						<a href='google.com' target='_blank'>
+						<Link to='/'>
 							<i class='fas fa-home fa-3x home'>
 								<div class='circle'>G</div>
 							</i>
 							<div class='title'>Home</div>
-						</a>
+						</Link>
 					</li>
 
 					<li>
-						<a href='google.com' target='_blank'>
+						<Link to='/aboutme'>
 							<i class='fab fa-twitter fa-3x twitter'>
 								<div class='circle'>A</div>
 							</i>
 							<div class='title'>About ME</div>
-						</a>
+						</Link>
 					</li>
 
 					<li>
-						<a href='google.com' target='_blank'>
+						<Link to='/projects'>
 							<i class='fab fa-codepen fa-3x codepen'>
 								<div class='circle'>R</div>
 							</i>
-							<div class='title'>Recent Projects</div>
-						</a>
+							<div class='title'>Projects</div>
+						</Link>
 					</li>
 
 					<li>
-						<a href='google.com' target='_blank'>
+						<Link to='/resume'>
 							<i class='fab fa-github fa-3x github'>
 								<div class='circle'>Y</div>
 							</i>
-							<div class='title'>Gary's Resume</div>
-						</a>
+							<div class='title'>Resume</div>
+						</Link>
+					</li>
+					<li>
+						<Link to='/Contact'>
+							<i class='fab fa-github fa-3x github'>
+								<div class='circle'>.W</div>
+							</i>
+							<div class='title'>Contact Me</div>
+						</Link>
 					</li>
 					<div class='background'></div>
 				</ul>

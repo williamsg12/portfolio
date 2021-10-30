@@ -1,15 +1,8 @@
-$home: #05386b;
-$twitter: #379683;
-$codepen: #5cdb95;
-$github: #8ee4af;
-$background: #edf5e1;
-$shadow: #CCCCCC;
-$illumination: #fdc6be;
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body  {  
-  background: grey;
+  background: pink;
   font-family: 'Roboto', sans-serif;
   text-transform:uppercase;
   text-shadow: .5px .5px 0 $shadow;
@@ -29,6 +22,8 @@ body  {
   padding: 0px;
   width: 640px;
   margin: 100px auto auto auto;
+  display: inline;
+  justify-content: center;
 }
 
 ul{  
@@ -36,12 +31,12 @@ ul{
 }
 
 li a{ 
-  padding: 30px;
+  padding: 20px;
   float:left;
-  width: 100px;
+  /* width: 100px; */
   text-align:center;
   font-size:15px;
-  color: blue;
+  color:grey;
   text-decoration:none;
 }
 
@@ -71,7 +66,7 @@ li a .title{
 li a:hover .title {
   transform: translateY(10px);
   font-size: 15px;
-  transition: .5s;
+  transition: .75s;
 }
        
 li a.title:hover{
@@ -91,6 +86,10 @@ li a.title:hover{
 }
 
 .nav li:nth-child(4) a {  
+  background:pink !important;
+}
+
+.nav li:nth-child(5) a {  
   background:pink !important;
 }
 
